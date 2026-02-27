@@ -119,7 +119,7 @@ export default function App() {
       {isDemo && data && (
         <div className="bg-accent/5 border-b border-accent/10 px-6 py-2.5">
           <p className="text-sm text-accent text-center">
-            📍 Showing demo: <span className="font-mono font-medium">expressjs/express</span> — paste your own repo URL above
+            📍 Showing demo: <span className="font-mono font-medium">Skavces/github-tree-viewer</span> — paste your own repo URL above
           </p>
         </div>
       )}
