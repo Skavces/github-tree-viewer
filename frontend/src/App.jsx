@@ -8,7 +8,7 @@ import { useTree } from './api/useTree';
 import { useTreeStore } from './store/useTreeStore';
 import { formatTree } from './lib/formatTree';
 
-const DEMO_REPO = 'https://github.com/expressjs/express';
+const DEMO_REPO = 'https://github.com/Skavces/github-tree-viewer';
 
 export default function App() {
   const [activeRepo, setActiveRepo] = useState('');
@@ -60,7 +60,7 @@ export default function App() {
           <div className="max-w-7xl mx-auto px-6 py-5">
             <div className="flex items-center justify-between mb-5">
               <div className="flex items-center gap-3">
-                <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-accent to-purple-500 flex items-center justify-center text-white text-lg">
+                <div className="text-3xl">
                   🌳
                 </div>
                 <div>
@@ -73,7 +73,7 @@ export default function App() {
                 </div>
               </div>
               <a
-                href="https://github.com"
+                href="https://github.com/Skavces/github-tree-viewer"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-text-muted hover:text-text-secondary transition-colors"
@@ -187,7 +187,7 @@ export default function App() {
               <span>100% free</span>
               <span className="text-border">·</span>
               <a
-                href="https://github.com"
+                href="https://github.com/Skavces/github-tree-viewer"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-text-secondary transition-colors"
