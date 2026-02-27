@@ -1,0 +1,50 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Next.js / Vite / React builds
+dist/
+build/
+.next/
+out/
+dist-ssr/
+
+# NestJS / TypeScript builds
+/backend/dist/
+/backend/out-tsc/
+/frontend/dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variables file
+.env
+.env.test
+.env.production
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+.idea
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
