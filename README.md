@@ -2,6 +2,8 @@
 
 A powerful web application that allows you to easily generate, view, and export the file tree structure of any public GitHub repository.
 
+![GitHub Tree Viewer Screenshot](./screenshot.png)
+
 ## 🚀 Features
 
 - **Visualize GitHub Repositories**: Enter a GitHub repository URL to instantly view its directory and file structure.
